@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, '`', LEFT GUI, LALT, LEFT CONTROL, SPACE, lower, raise, ENTER, RIGHT CONTROL, RALT, RIGHT GUI]
+    Z, X, C, V, B, MUTE, PRINTSCREEN, N, M, ',', ., /, '`', LEFT GUI, LALT, SPACE, LEFT CONTROL, lower, raise, RIGHT SHIFT, ENTER, SPACE, RIGHT GUI]
   lower:
-  - {t: ▽, type: trans}
+  - '`'
   - F1
   - F2
   - F3
@@ -15,48 +15,48 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Ctl+6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - F12
   - {t: ▽, type: trans}
   - ''
   - ''
-  - '`'
-  - '-'
-  - '='
-  - (
-  - )
-  - KP MULTIPLY
-  - '|'
-  - ''
-  - PG UP
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - H
   - ''
-  - \
   - ''
-  - PAGE DOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,39 +74,37 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '-'
+  - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
+  - ''
   - PSCRN
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
+  - ''
   - {t: ▽, type: trans}
   - UP
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
-  - '0'
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
-  - PG DN
+  - ''
+  - ''
   - LEFT
   - DOWN
   - RIGHT
-  - DEL
-  - BSPC
+  - PAGE UP
+  - DELETE
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -114,6 +112,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PAGE DOWN
+  - INSERT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
