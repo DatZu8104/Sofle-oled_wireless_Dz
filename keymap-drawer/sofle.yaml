@@ -44,7 +44,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Ctl+Sft+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
