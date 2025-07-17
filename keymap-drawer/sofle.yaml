@@ -244,15 +244,74 @@ layers:
   - ''
   - ''
   - ''
-  Koyote_1: [ESC, '1', '2', '3', '4', '5', '', '', '', '', '', '', TAB, Q, W, E, R, T, '', '', '', '', '', '', '', A, S, D, F, G, '', '', '', '', '', '', LEFT SHIFT,
-    Z, X, C, V, B, '', '', '', '', '', '', '', '', '', LALT, SPACE, LEFT CONTROL, Koyote_2, '', '', '', '', '']
-  Koyote_2:
-  - ''
-  - F1
-  - F2
-  - F3
+  Koyote_1:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
   - '4'
   - '5'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '-'
+  - A
+  - S
+  - D
+  - F
+  - G
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: default, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '='
+  - LALT
+  - SPACE
+  - LEFT CONTROL
+  - Koyote_2
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  Koyote_2:
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,12 +330,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - LSHFT
   - H
   - J
   - K
   - L
-  - '7'
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
