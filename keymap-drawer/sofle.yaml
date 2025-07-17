@@ -287,7 +287,7 @@ layers:
   - C
   - V
   - B
-  - {t: default, h: toggle}
+  - ''
   - ''
   - ''
   - ''
@@ -303,7 +303,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: default, h: toggle}
   - ''
   Koyote_2:
   - F7
