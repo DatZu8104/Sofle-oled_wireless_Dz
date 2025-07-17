@@ -124,11 +124,11 @@
         Koyote_1 {
             label = "Koyote_1";
             bindings = <
-&kp ESC         &kp N1  &kp N2     &kp N3    &kp N4     &kp N5                            &none  &none  &none   &none  &none  &none
-&kp TAB         &kp Q   &kp W      &kp E     &kp R      &kp T                             &none  &none  &none   &none  &none  &none
-&kp MINUS       &kp A   &kp S      &kp D     &kp F      &kp G                             &none  &none  &none   &none  &none  &none
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp V      &kp B             &none    &none  &none  &none  &none   &none  &none  &none
-                        &kp EQUAL  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 5    &none  &none  &none  &tog 0  &none
+&kp ESC         &kp N1  &kp N2     &kp N3    &kp N4     &kp N5                            &none  &none  &none   &none   &none  &none
+&kp TAB         &kp Q   &kp W      &kp E     &kp R      &kp T                             &none  &none  &none   &none   &none  &none
+&kp MINUS       &kp A   &kp S      &kp D     &kp F      &kp G                             &none  &none  &none   &none   &none  &none
+&kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp V      &kp B             &none    &none  &none  &none  &none   &none   &none  &none
+                        &kp EQUAL  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 5    &none  &none  &none  &tog 4  &tog 6
             >;
 
             sensor-bindings =
@@ -154,7 +154,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 4  &tog 6
             >;
         };
     };
