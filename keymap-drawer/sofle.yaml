@@ -303,8 +303,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: default, h: toggle}
-  - ''
+  - {t: Koyote_1, h: toggle}
+  - {t: Benjamin, h: toggle}
   Koyote_2:
   - F7
   - F8
@@ -425,5 +425,5 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Koyote_1, h: toggle}
+  - {t: Benjamin, h: toggle}
