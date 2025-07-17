@@ -124,11 +124,11 @@
         Koyote_1 {
             label = "Koyote_1";
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                            &none  &none  &none  &none  &none  &none
-&kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                             &none  &none  &none  &none  &none  &none
-&none           &kp A   &kp S   &kp D     &kp F      &kp G                             &none  &none  &none  &none  &none  &none
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C     &kp V      &kp B             &none    &none  &none  &none  &none  &none  &none  &none
-                        &none   &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 5    &none  &none  &none  &none  &none
+&kp ESC         &kp N1  &kp N2     &kp N3    &kp N4     &kp N5                             &none  &none  &none  &none  &none  &none
+&kp TAB         &kp Q   &kp W      &kp E     &kp R      &kp T                              &none  &none  &none  &none  &none  &none
+&kp MINUS       &kp A   &kp S      &kp D     &kp F      &kp G                              &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp V      &kp B             &tog 0    &none  &none  &none  &none  &none  &none  &none
+                        &kp EQUAL  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 5     &none  &none  &none  &none  &none
             >;
 
             sensor-bindings =
@@ -138,11 +138,11 @@
 
         Koyote_2 {
             bindings = <
-&none          &kp F1  &kp F2  &kp F3     &kp NUMBER_4  &kp N5                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp DELETE     &kp F1  &kp F2  &kp F3     &kp F4        &kp F5                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp BACKSPACE  &kp H   &kp J   &kp K      &kp L         &kp N7                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans         &kp N   &kp M   &kp COMMA  &kp DOT       &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                       &trans  &trans     &trans        &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&kp F7      &kp F8  &kp F9  &kp F10    &kp F11  &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp DELETE  &kp F1  &kp F2  &kp F3     &kp F4   &kp F5                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT   &kp H   &kp J   &kp K      &kp L    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                    &trans  &trans     &trans   &trans    &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Koyote_2";
