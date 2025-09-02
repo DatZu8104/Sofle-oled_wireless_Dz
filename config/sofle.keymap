@@ -54,7 +54,7 @@
 &kp TAB         &kp Q   &kp W         &kp E     &kp R      &kp T                                          &kp Y            &kp U      &kp I      &kp O    &kp P     &kp BSPC
 &kp CAPS        &kp A   &kp S         &kp D     &kp F      &kp G                                          &kp H            &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X         &kp C     &kp V      &kp B             &kp LG(LS(S))    &kp K_MUTE  &kp N            &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SPACE
-                        &kp LEFT_GUI  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 1            &mo 2       &kp RIGHT_SHIFT  &kp ENTER  &tog 4     &none
+                        &kp LEFT_GUI  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 1            &mo 2       &kp RIGHT_SHIFT  &kp ENTER  &none      &none
             >;
 
             sensor-bindings =
@@ -74,11 +74,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F12  &kp F1          &kp F2          &kp F3           &kp F4  &kp F5                                         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&kp DEL  &none           &kp UP_ARROW    &none            &none   &kp LC(NUMBER_6)                               &none   &none   &none   &none   &none    &none
-&trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &kp H                                          &none   &none   &none   &none   &none    &none
-&trans   &none           &none           &none            &none   &none             &kp RC(RS(GRAVE))    &none   &none   &none   &none   &none   &none    &none
-                         &trans          &trans           &trans  &kp ENTER         &trans               &trans  &none   &trans  &trans  &trans
+&kp F12        &kp F1          &kp F2          &kp F3           &kp F4  &kp F5                                         &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11
+&kp BACKSPACE  &none           &kp UP_ARROW    &none            &none   &kp LC(NUMBER_6)                               &none      &none      &none     &kp LBRC  &kp RBRC  &none
+&trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &kp H                                          &none      &none      &none     &none     &none     &none
+&trans         &none           &none           &none            &none   &none             &kp RC(RS(GRAVE))    &none   &kp TILDE  &kp UNDER  &kp PLUS  &kp PIPE  &none     &none
+                               &trans          &trans           &trans  &kp ENTER         &trans               &trans  &none      &trans     &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -119,33 +119,6 @@
 &none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
                                     &none            &none            &none            &none            &none              &none  &none  &none  &none  &none
             >;
-        };
-
-        Koyote_1 {
-            label = "Koyote_1";
-            bindings = <
-&kp ESC         &kp N1  &kp N2     &kp N3    &kp N4     &kp N5                            &none  &none  &none   &none  &none  &none
-&kp TAB         &kp Q   &kp W      &kp E     &kp R      &kp T                             &none  &none  &none   &none  &none  &none
-&kp MINUS       &kp A   &kp S      &kp D     &kp F      &kp G                             &none  &none  &none   &none  &none  &none
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp V      &kp B             &none    &none  &none  &none  &none   &none  &none  &none
-                        &kp EQUAL  &kp LALT  &kp SPACE  &kp LEFT_CONTROL  &mo 5    &none  &none  &none  &tog 4  &none
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-        };
-
-        Koyote_2 {
-            bindings = <
-&kp F7      &kp F8  &kp F9  &kp F10    &kp F11  &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp DELETE  &kp F1  &kp F2  &kp F3     &kp F4   &kp F5                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT   &kp H   &kp J   &kp K      &kp L    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                    &trans  &trans     &trans   &trans    &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "Koyote_2";
         };
     };
 };
